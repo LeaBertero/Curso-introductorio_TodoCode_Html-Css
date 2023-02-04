@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todocode-formularios</title>
+</head>
+
+<body>
+    
+<h1>Formulario</h1>
+
+<form action="/otroHtml.html" method="post">
+    <p><label for="Nombre">Nombre: <input type="text" id="nombre"></label></p>
+    <p><label for="Apellido">Apellido: <input type="text" id="Apellido"></label></p>
+    <p><label for="Nombre">Edad: <input type="number" id="edad"></label></p>
+    <p><label for="observacion">Observación: <textarea id="observacion"></textarea></label></p>
+    
+    <p><label for="text">Estatura: 
+        <select id="estatura">
+            <option value="1,50 mts"></option>
+            <option value="1,51 1,60 mts">1,51 a 1,60 mts</option>
+            <option value="1,61 1,70 mts" selected>1,61 a 1,70 mts</option>
+            <option value="1,71 1,80 mts">1,71 a 1,80 mts</option>
+            <option value="> 1,80 mts" disabled> > Mayor a 1,80 mts</option>
+        </select>
+    </label></p>
+    
+
+<p><b>Color de ojos</b></p>
+<input type="checkbox" value="marron" checked>
+<label>Marrón</label><br>
+<input type="checkbox" value="verde">
+<label>Verde</label><br>
+<input type="checkbox" value="azul">
+<label>Azul</label><br>
+<input type="checkbox" value="otro">
+<label>Otro</label>
+<br>
+<br>
+
+    <button type="submit">Enviar</button>
+
+    
+
+</form>
+
+</body>
+</html>
